@@ -10,13 +10,12 @@ import 'animate.css'
 import LoginForm from './LoginForm'
 import RegisterForm from './RegisterForm'
 
-const url = 'https://github.com/zhangZhiHao1996/image-store/blob/master/react-admin-master/bg1.jpg?raw=true'
+const url =
+  "https://up.enterdesk.com/edpic/b8/0e/b1/b80eb18cbdee54ab9f0c9adca37562f5.jpg";
 const imgs = [
-  'https://github.com/zhangZhiHao1996/image-store/blob/master/react-admin-master/slide1.jpg?raw=true',
-  'https://github.com/zhangZhiHao1996/image-store/blob/master/react-admin-master/slide2.jpg?raw=true',
-  'https://github.com/zhangZhiHao1996/image-store/blob/master/react-admin-master/slide3.jpg?raw=true',
-  'https://github.com/zhangZhiHao1996/image-store/blob/master/react-admin-master/slide4.jpg?raw=true'
-]
+  "https://up.enterdesk.com/edpic/ac/cd/6e/accd6eb3456ec047bac7ff6b3e525412.jpg",
+  "https://up.enterdesk.com/edpic_360_360/ef/5d/78/ef5d78e143f878edc799b95dd1f83afe.jpg",
+];
 
 
 
@@ -117,37 +116,37 @@ class Login extends React.Component {
 
 const styles = {
   backgroundBox: {
-    position: 'fixed',
-    top: '0',
-    left: '0',
-    width: '100vw',
-    height: '100vh',
-    // backgroundImage: 'url(https://github.com/zhangZhiHao1996/image-store/blob/master/react-admin-master/bg5.jpg?raw=true)',
-    backgroundImage: 'url(https://github.com/zhangZhiHao1996/image-store/blob/master/react-admin-master/bg1.jpg?raw=true)',
-    backgroundSize: '100% 100%',
-    transition:'all .5s'
+    position: "fixed",
+    top: "0",
+    left: "0",
+    width: "100vw",
+    height: "100vh",
+    backgroundImage:
+      "url(https://up.enterdesk.com/edpic/b8/0e/b1/b80eb18cbdee54ab9f0c9adca37562f5.jpg)",
+    backgroundSize: "100% 100%",
+    transition: "all .5s",
   },
   focus: {
     // transform: 'scale(0.7)',
-    width: '20px',
-    opacity: 1
+    width: "20px",
+    opacity: 1,
   },
-  loadingBox:{
-    position:'fixed',
-    top:'50%',
-    left:'50%',
-    transform:'translate(-50%,-50%)'
+  loadingBox: {
+    position: "fixed",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%,-50%)",
   },
-  loadingTitle:{
-    position:'fixed',
-    top:'50%',
-    left:'50%',
+  loadingTitle: {
+    position: "fixed",
+    top: "50%",
+    left: "50%",
     marginLeft: -45,
     marginTop: -18,
-    color:'#000',
-    fontWeight:500,
-    fontSize:24
+    color: "#000",
+    fontWeight: 500,
+    fontSize: 24,
   },
-}
+};
 
 export default Login

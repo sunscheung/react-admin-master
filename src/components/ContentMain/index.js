@@ -1,3 +1,8 @@
+/*
+ * @Author: Suns
+ * @Date: 2020-10-10 15:18:44
+ * @LastEditTime: 2020-10-10 16:36:49
+ */
 import React from 'react'
 import { withRouter, Switch, Redirect } from 'react-router-dom'
 import LoadableComponent from '../../utils/LoadableComponent'
@@ -56,7 +61,7 @@ class ContentMain extends React.Component {
 
           <PrivateRoute exact path='/home/navigation/dropdown' component={DropdownDemo}/>
           <PrivateRoute exact path='/home/navigation/menu' component={MenuDemo}/>
-          <PrivateRoute exact path='/home/navigation/steps' component={StepsDemo}/>
+          <PrivateRoute exact path='/home/navigation/other/steps' component={StepsDemo}/>
 
           <PrivateRoute exact path='/home/entry/form/basic-form' component={FormDemo1}/>
           <PrivateRoute exact path='/home/entry/form/step-form' component={FormDemo2}/>

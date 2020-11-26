@@ -1,13 +1,18 @@
+/*
+ * @Author: Suns
+ * @Date: 2020-10-10 15:18:44
+ * @LastEditTime: 2020-10-16 09:45:13
+ */
 import React from 'react'
 import {Carousel} from 'antd'
 import './style.css'
 
 const imgs = [
-  'https://github.com/zhangZhiHao1996/image-store/blob/master/react-admin-master/slide1.jpg?raw=true',
-  'https://github.com/zhangZhiHao1996/image-store/blob/master/react-admin-master/slide2.jpg?raw=true',
-  'https://github.com/zhangZhiHao1996/image-store/blob/master/react-admin-master/slide3.jpg?raw=true',
-  'https://github.com/zhangZhiHao1996/image-store/blob/master/react-admin-master/slide4.jpg?raw=true'
-]
+  "https://cn.bing.com/th?id=OHR.RoaringCascade_ZH-CN7814945705_1920x1080.jpg&rf=LaDigue_1920x1080.jpg",
+  "https://cn.bing.com/th?id=OHR.AmericanFlyer_ZH-CN7955219009_1920x1080.jpg&rf=LaDigue_1920x1080.jpg",
+  "https://cn.bing.com/th?id=OHR.RoaringCascade_ZH-CN7814945705_1920x1080.jpg&rf=LaDigue_1920x1080.jpg",
+  "https://cn.bing.com/th?id=OHR.AmericanFlyer_ZH-CN7955219009_1920x1080.jpg&rf=LaDigue_1920x1080.jpg",
+];
 
 class Home extends React.Component {
   render() {

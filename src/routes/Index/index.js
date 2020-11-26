@@ -1,12 +1,15 @@
+/*
+ * @Author: Suns
+ * @Date: 2020-10-10 15:18:44
+ * @LastEditTime: 2020-10-16 15:59:33
+ */
 import React from 'react'
 import {Layout} from 'antd'
+// console.log("routes/Index/index")
 import SiderNav from '../../components/SiderNav'
 import ContentMain from '../../components/ContentMain'
 import HeaderBar from '../../components/HeaderBar'
-
 const {Sider, Header, Content, Footer} = Layout
-
-
 class Index extends React.Component{
   state = {
     collapsed: false
@@ -36,7 +39,7 @@ class Index extends React.Component{
             <Content>
               <ContentMain/>
             </Content>
-            <Footer style={{textAlign: 'center'}}>React-Admin ©2018 Created by 137596665@qq.com <a target='_blank' href='https://github.com/zhangZhiHao1996/react-admin-master'>github地址</a></Footer>
+            <Footer style={{textAlign: 'center'}}>Admin ©2018 Created by Admin</Footer>
           </Layout>
         </Layout>
       </div>
